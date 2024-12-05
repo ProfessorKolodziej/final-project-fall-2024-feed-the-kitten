@@ -89,3 +89,19 @@
 
 
 }
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  top: 22rem;
+  left: 15rem; 
+  width: 14.625rem;
+  height: 20.5625rem;
+  flex-shrink: 0;;
+}

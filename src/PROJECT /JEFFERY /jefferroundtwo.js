@@ -6,5 +6,5 @@ correctfish.style.cursor = "pointer";
 
 // Add an event listener to navigate to correct.html when the image is clicked
 correctfish.addEventListener("click", () => {
-    window.location.href = "correct2.html";
+    window.location.href = "page16.html";
 });

@@ -60,8 +60,32 @@ object-fit: cover; /* Prevent stretching */
   height: 6.0625rem;
   position: relative;
   object-fit: cover;
-  top: 25rem;
+  top: 15rem;
   left: 55rem;
 
 }
+.busell-of-fruit-1,
+.busell-of-fruit-1 * {
+  box-sizing: border-box;
+}
+.busell-of-fruit-1 {
+  height: 27.8125rem;
+  position: relative;
+  object-fit: cover;
+  top: 10rem;
+  left: 35rem;
+}
 
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  top: 15rem;
+  left: 25rem;
+}

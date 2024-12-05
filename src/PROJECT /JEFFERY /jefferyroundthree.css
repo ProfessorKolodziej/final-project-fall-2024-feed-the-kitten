@@ -58,9 +58,34 @@
 		font-weight: 400;
 		font-style: normal;
 		font-size: 5rem;
-		
 
 
+
+}
+.busell-of-fruit-1,
+.busell-of-fruit-1 * {
+  box-sizing: border-box;
+}
+.busell-of-fruit-1 {
+  height: 27.8125rem;
+  position: relative;
+  object-fit: cover;
+  top: 10rem;
+  left: 45rem;
+}
+
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  left: 45rem;
+  top: 10rem;
 }
 
 

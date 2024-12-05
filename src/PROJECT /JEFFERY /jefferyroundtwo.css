@@ -46,8 +46,8 @@
   height: 6.0625rem;
   position: absolute;
   object-fit: cover;
-  left: 60rem;
-  top: 25rem;
+  left: 65rem;
+  top: 45rem;
 }
 
 .round-two,
@@ -61,4 +61,28 @@
 	font-size: 5rem;
 	top: 2rem;
 	left: 3rem
+}
+.busell-of-fruit-1,
+.busell-of-fruit-1 * {
+  box-sizing: border-box;
+}
+.busell-of-fruit-1 {
+  height: 27.8125rem;
+  position: relative;
+  object-fit: cover;
+  top: 10rem;
+  left: 45rem;
+}
+
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  left: 25rem;
 }

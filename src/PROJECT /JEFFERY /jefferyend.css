@@ -47,14 +47,57 @@
   top: 1rem;
 left: 5rem;
 }
-
+.star-1,
+.star-1 *
+  { box-sizing: border-box;}
 
 .star-1
 {
 	height: 20rem;
 	position: relative;
-	overflow: visible;
-	top: 2rem;
-	left: 4rem;
+	overflow: visible; 
+	  box-sizing: border-box;
+	}
 
+.exit-game,
+.exit-game * {
+  box-sizing: border-box;
 }
+.exit-game {
+	width: 13.91769rem;
+height: 6.81594rem;
+flex-shrink: 0;
+font-family: "Are You Serious", serif;
+font-weight: 400;
+font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  width: 17.4375rem;
+  height: 11rem;
+  top: 35rem;
+  left: 55rem;
+  font-size: 5rem;
+}
+.feed-kit,
+	.feed-kit * {
+	  box-sizing: border-box;
+
+	}
+	.feed-kit {
+background: transparent;
+	  position: absolute;
+	  width: 13.9175rem;
+	  height: 6.815625rem;
+	  width: 17.4375rem;
+	height: 11rem;
+	font-size: 5rem;
+	top: 35rem;
+	left: 35rem;
+	flex-shrink: 0;
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+
+
