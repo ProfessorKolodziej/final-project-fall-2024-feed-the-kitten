@@ -47,6 +47,19 @@
 	animation: explode 1s ease-out forwards;
 }
 
+.Correct
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+	font-size: 6rem;
+  font-weight: 400;
+  position: relative;
+}
+
 /* Explosion animation */
 @keyframes explode {
 	0% {

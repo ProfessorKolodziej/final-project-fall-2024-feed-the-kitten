@@ -61,28 +61,41 @@
 	top: 7rem;
 	left:20rem
   }
-/* Vector Image Styling */
 
+  .kitend
+  {
 
-/* Confetti styles */
-.confetti {
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	background: red;
-	opacity: 0.8;
-	border-radius: 50%;
-	animation: explode 1s ease-out forwards;
-}
-
-/* Explosion animation */
-@keyframes explode {
-	0% {
-		 transform: translate(0, 0) scale(1);
-		 opacity: 1;
+		margin-top: 10px;
+		margin-left: 10px;
+		font-family: "Are You Serious", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 4rem;
+	  font-weight: 400;
+	  position: relative;
 	}
-	100% {
-		 transform: translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh)) scale(0.8);
-		 opacity: 0;
-	}
-}
+
+
+
+	.confetti {
+		position: absolute;
+		animation: flyaway 2s ease-out forwards;
+		background-color: #FF69B4; /* Ensure pink color is applied */
+		border-radius: 0; /* Make it square */
+  }
+
+  @keyframes flyaway {
+		0% {
+			 transform: translate(0, 0) scale(1);
+			 opacity: 1;
+		}
+		50% {
+			 transform: translate(calc(var(--x, 0) * 15px), calc(var(--y, 0) * 15px)) scale(1.5);
+			 opacity: 0.8;
+		}
+		100% {
+			 transform: translate(calc(var(--x, 0) * 30px), calc(var(--y, 0) * 30px)) scale(0.5);
+			 opacity: 0;
+		}
+  }
+  
