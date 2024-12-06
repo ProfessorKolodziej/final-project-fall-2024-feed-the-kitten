@@ -34,3 +34,24 @@
   position: relative;
   overflow: visible;
 }
+.confetti {
+	position: absolute;
+	animation: flyaway 2s ease-out forwards;
+	background-color: #FF69B4; /* Ensure pink color is applied */
+	border-radius: 0; /* Make it square */
+}
+
+@keyframes flyaway {
+	0% {
+		 transform: translate(0, 0) scale(1);
+		 opacity: 1;
+	}
+	50% {
+		 transform: translate(calc(var(--x, 0) * 15px), calc(var(--y, 0) * 15px)) scale(1.5);
+		 opacity: 0.8;
+	}
+	100% {
+		 transform: translate(calc(var(--x, 0) * 30px), calc(var(--y, 0) * 30px)) scale(0.5);
+		 opacity: 0;
+	}
+}
