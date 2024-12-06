@@ -23,16 +23,65 @@
 }
 
 /* Styling for .kit */
-.kit,
-.kit * {
+.smile-kit,
+.smile-kit * {
   box-sizing: border-box;
 }
 
-.kit {
-  height: 30rem;
+.smile-kit {
+	height: 30rem;
   position: absolute;
   object-fit: cover;
   background: transparent;
   top: 15rem;
-  left: 25rem;
+  left: 35rem;
+}
+
+.greatjob
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	  box-sizing: border-box;
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+  position: absolute;
+  top: 2rem;
+;
+}
+body {
+	margin: 0;
+	overflow: hidden;
+	background: #000; /* Black background for better contrast */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Confetti styles */
+.confetti {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: red;
+	opacity: 0.8;
+	border-radius: 50%;
+	animation: explode 1s ease-out forwards;
+}
+
+/* Explosion animation */
+@keyframes explode {
+	0% {
+		 transform: translate(0, 0) scale(1);
+		 opacity: 1;
+	}
+	100% {
+		 transform: translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh)) scale(0.8);
+		 opacity: 0;
+	}
 }
