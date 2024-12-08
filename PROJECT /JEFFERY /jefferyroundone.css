@@ -1,0 +1,91 @@
+Picka cat css
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+/* Background Image Styling */
+.paper{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -9; /* Ensure it's behind all other content */
+overflow: hidden;
+}
+
+
+.paper {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Prevent stretching */
+}
+.caption-2,
+.caption-2 * {
+  box-sizing: border-box;
+}
+.caption-2 {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+  position: absolute;
+  text-align: left;
+  left: 3rem;
+  top: 3rem;
+  font-size: 5rem;
+}
+
+.jeffery,
+.jeffery * {
+  box-sizing: border-box;
+}
+.jeffery {
+  height: 24.0625rem;
+  background: transparent;
+  position: absolute;
+  object-fit: cover;
+  top: 20rem;
+  left: 30rem;
+}
+
+.correct-fish,
+.correct-fish * {
+  box-sizing: border-box;
+}
+.correct-fish{
+  width: 8.75rem;
+  height: 6.0625rem;
+  position: relative;
+  object-fit: cover;
+  top: 15rem;
+  left: 55rem;
+
+}
+.busell-of-fruit-1,
+.busell-of-fruit-1 * {
+  box-sizing: border-box;
+}
+.busell-of-fruit-1 {
+  height: 27.8125rem;
+  position: relative;
+  object-fit: cover;
+  top: 10rem;
+  left: 35rem;
+}
+
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  top: 15rem;
+  left: 25rem;
+}

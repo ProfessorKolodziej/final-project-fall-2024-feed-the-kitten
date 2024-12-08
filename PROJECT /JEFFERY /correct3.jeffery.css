@@ -1,0 +1,93 @@
+.are-you-serious-regular {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+.paper{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -9; /* Ensure it's behind all other content */
+ overflow: hidden;
+}
+.paper {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Prevent stretching */
+}
+
+.jeff-smile,
+.jeff-smile * {
+  box-sizing: border-box;
+}
+.jeff-smile {
+  height: 26.625rem;
+  position: absolute;
+  object-fit: cover;
+flex-shrink: 0;
+left: 15rem;
+top: 10rem;
+width: 26.75rem;
+height: 27.5625rem;
+flex-shrink: 0;
+}
+
+.group-28,
+.group-28 * {
+  box-sizing: border-box;
+}
+.group-28 {
+  height: 11.9375rem;
+  position: relative;
+}
+.correct-jeffery-is-full {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+  position: absolute;
+  text-align: left;
+  left: 40rem;
+  bottom:20rem;
+  font-size: 9rem;
+}
+.great-job {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+  position: absolute;
+  text-align: left;
+  left: 40rem;
+  bottom:12rem;
+  font-size: 9rem;
+}
+
+.confetti {
+	position: absolute;
+	animation: flyaway 2s ease-out forwards;
+	background-color: #FF69B4; /* Ensure pink color is applied */
+	border-radius: 0; /* Make it square */
+}
+
+@keyframes flyaway {
+	0% {
+		 transform: translate(0, 0) scale(1);
+		 opacity: 1;
+	}
+	50% {
+		 transform: translate(calc(var(--x, 0) * 15px), calc(var(--y, 0) * 15px)) scale(1.5);
+		 opacity: 0.8;
+	}
+	100% {
+		 transform: translate(calc(var(--x, 0) * 30px), calc(var(--y, 0) * 30px)) scale(0.5);
+		 opacity: 0;
+	}
+}

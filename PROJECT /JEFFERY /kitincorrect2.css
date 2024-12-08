@@ -1,0 +1,50 @@
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Background Image Styling */
+.paper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9; /* Ensure it's behind all other content */
+  overflow: hidden;
+}
+
+.paper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevent stretching */
+}
+
+/* Styling for .kit */
+.sadkit,
+.sadkit * {
+  box-sizing: border-box;
+}
+
+.sadkit {
+  height: 30rem;
+  position: absolute;
+  object-fit: cover;
+  background: transparent;
+  top: 15rem;
+  left: 25rem;
+}
+.incorrect-let-s-try-again,
+.incorrect-let-s-try-again * {
+  box-sizing: border-box;
+}
+.incorrect-let-s-try-again {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+  position: absolute;
+  top: 2rem;
+}

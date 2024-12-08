@@ -1,0 +1,129 @@
+Picka cat css
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+
+
+
+/* Background Image Styling */
+.paper{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -9; /* Ensure it's behind all other content */
+overflow: hidden;
+}
+
+
+
+
+.paper {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Prevent stretching */
+}
+
+
+.text {
+  color: #000;
+  text-align: left;
+  font-family: 'Are You Serious', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  left: 16.1875rem;
+  top: 7.1875rem;
+ }
+
+
+.group-24,
+.group-24 * {
+ box-sizing: border-box;
+}
+.group-24 {
+ position: relative;
+}
+.select-which-kitten-you-would-like-to-feed-first {
+ color: #000000;
+ text-align:right;
+  font-family: 'Are You Serious', sans-serif;
+ font-size: 3rem;
+ font-weight: 400;
+ position: absolute;
+ left: rem;
+ top: 7.0625rem;
+ width: 56.9375rem;
+ height: 4.3125rem;
+}
+.feed-the-kittens {
+ color: #000000;
+ text-align: center;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 3rem;
+ font-weight: 400;
+ position: absolute;
+ left:1.5rem;
+ top: .5rem;
+}
+
+
+
+
+.p-2-jeffery{
+  height: 15rem;
+  position: absolute;
+  object-fit: cover;
+  background: transparent;
+  top: 15rem;
+  left:20rem
+
+
+
+
+}
+
+
+.p-2-kit {
+  box-sizing: border-box;
+}
+.p-2-kit {
+   width: 15rem;
+  height: 15rem;
+  position:absolute;
+  top: 15.5rem;
+  left:40rem;
+  object-fit: cover;
+}
+
+
+.heart{
+  box-sizing: border-box;
+}
+.heart {
+  width: 15.06rem;
+  height: 11.66375rem;
+  position: absolute;
+  overflow: visible;
+  top:30rem;
+  left: 20rem
+}
+.pinkheart{
+  width: 15.06rem;
+  height: 11.66375rem;
+  position: absolute;
+  overflow: hidden;
+  top: 30rem;
+  left: 40rem;
+
+
+}
+
+
+
+

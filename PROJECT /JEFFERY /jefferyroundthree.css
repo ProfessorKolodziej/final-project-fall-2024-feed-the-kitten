@@ -1,0 +1,91 @@
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+
+/* Background Image Styling */
+.paper{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -9; /* Ensure it's behind all other content */
+ overflow: hidden;
+}
+.paper {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Prevent stretching */
+}
+
+.jeffery,
+.jeffery * {
+ box-sizing: border-box;
+}
+.jeffery {
+ height: 30rem;
+ position: absolute;
+ object-fit: cover;
+ background: transparent;
+
+ top: 15rem;
+ left:25rem
+}
+
+
+.correctfish,
+.correctfish {
+  box-sizing: border-box;
+}
+.correctfish {
+  width: 8.75rem;
+  height: 6.0625rem;
+  position: absolute;
+  object-fit: cover;
+  left: 60rem;
+  top: 25rem;
+}
+.round-three,
+.round-three * {
+  box-sizing: border-box;
+}
+.round-three {
+		font-family: "Are You Serious", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 5rem;
+
+
+
+}
+.busell-of-fruit-1,
+.busell-of-fruit-1 * {
+  box-sizing: border-box;
+}
+.busell-of-fruit-1 {
+  height: 27.8125rem;
+  position: relative;
+  object-fit: cover;
+  top: 10rem;
+  left: 45rem;
+}
+
+.green-lettuce,
+.green-lettuce * {
+  box-sizing: border-box;
+}
+.green-lettuce {
+  width: 14.625rem;
+  height: 20.5625rem;
+  position: relative;
+  overflow: visible;
+  object-fit: cover;
+  left: 45rem;
+  top: 10rem;
+}
+
+

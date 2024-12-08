@@ -1,0 +1,69 @@
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Background Image Styling */
+.paper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9; /* Ensure it's behind all other content */
+  overflow: hidden;
+}
+
+.paper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevent stretching */
+}
+
+/* Styling for .slantarrow */
+.slantarrow,
+.slantarrow * {
+  box-sizing: border-box;
+}
+
+.slantarrow {
+  width: 20.06rem;
+  height: 6.66375rem;
+  position: absolute;
+  overflow: hidden;
+  top: 35rem;
+  left: 65rem;
+}
+
+/* Styling for .kit */
+
+.kit,
+.kit * {
+  box-sizing: border-box;
+}
+.kit {
+  height: 47.3125rem;
+  position: relative;
+  object-fit: cover;
+  background: transparent;
+  left: 25rem;
+  top: 2rem;
+}
+
+
+
+.it-s-time-for-dinner-don-t-forget-she-is-picky,
+.it-s-time-for-dinner-don-t-forget-she-is-picky * {
+  box-sizing: border-box;
+}
+.it-s-time-for-dinner-don-t-forget-she-is-picky {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3rem;
+  position: relative;
+  height: 11.5rem;
+  bottom: 45rem;
+}

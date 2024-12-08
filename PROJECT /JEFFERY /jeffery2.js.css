@@ -1,0 +1,47 @@
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+
+/* Background Image Styling */
+.paper{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -9; /* Ensure it's behind all other content */
+ overflow: hidden;
+}
+.paper {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Prevent stretching */
+}
+
+.fish-one,
+.fish-one * {
+  box-sizing: border-box;
+}
+.fish-one {
+  width: 8.75rem;
+  height: 6.0625rem;
+  position: absolute;
+  object-fit: cover;
+  left: 60rem;
+  top: 25rem;
+}
+
+
+.jeffery {
+ height: 30rem;
+ position: absolute;
+ object-fit: cover;
+ background: transparent;
+ box-shadow: inset;
+ top: 15rem;
+ left:25rem
+}

@@ -1,0 +1,149 @@
+
+*::before,
+*::after {
+box-sizing:border-box; fill: url(background-image.svg);
+}
+
+/* Background Image Styling */
+.background-image
+{
+position: relative;
+top: 0;
+left: 0;
+width: fit-content;
+height: fit-content;
+z-index: -9; /* Ensure it's behind all other content */
+overflow:hidden
+}
+
+
+
+.background-image {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Prevent stretching */
+}
+
+
+.text {
+  color: #000;
+  text-align: left;
+  font-family: 'Are You Serious', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  left: 16.1875rem;
+  top: 7.1875rem;
+ }
+
+
+/* Group Element Styling */
+.group-6 {
+ position: relative;
+ inset: 0;
+}
+
+
+/* Text and Typography Styling */
+.text {
+ color: #000;
+ text-align: left;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 3rem;
+ font-weight: 400;
+ position: absolute;
+ left: 16.1875rem;
+ top: 7.1875rem;
+}
+
+
+.welcome-to-feed-the-kittens {
+ color: #000;
+ text-align: right;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 7rem;
+ font-weight: 300;
+ position: absolute;
+ left: 25.5rem;
+ top: 5.375rem;
+ width: 46.625rem;
+ height: 18.4375rem;
+}
+
+
+.click-the-button-to-start {
+ color: #000;
+ text-align: left;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 3.25rem;
+ font-weight: 400;
+ position: absolute;
+ left: 45.25rem;
+ top: 38.4375rem;
+}
+
+
+/* Vector Image Styling */
+.start-arrow {
+ width: 25.05%;
+ height: 45.45%;
+ position: absolute;
+ right: 55.34%;
+ left: 55%;
+ bottom: 55%;
+ top: 24.6875rem; /* Position the vector below the subtitle */
+ transform: translateY(-3.875rem);
+ overflow: hidden;
+ background: transparent;
+}
+
+
+.kit * {
+ box-sizing: content-box;
+}
+.kit {
+ height: 35rem;
+ position: absolute;
+ background: transparent;
+ top: 3rem;
+}
+.kit {
+ height: 40rem;
+ position: absolute;
+ left: 15rem;
+ top: 18rem;
+ overflow:hidden;
+}
+
+
+
+.jeffery,
+.jeffery * {
+ box-sizing: content-box;
+}
+.jeffery {
+ height: 22rem;
+ position: absolute;
+ object-fit: cover;
+ background: transparent;
+ top: 23rem;
+ left:6rem
+}
+
+
+
+.crown{
+  box-sizing: content-box;
+  width: 92.497px;
+height: 101px;
+flex-shrink: 0;
+}
+.crown
+{
+  width:10rem;
+  height:10rem;
+  position:absolute;
+  background:transparent;
+ top:19rem;
+ left:8rem;
+}

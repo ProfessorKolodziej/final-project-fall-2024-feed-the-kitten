@@ -1,0 +1,92 @@
+
+.paper{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -9; /* Ensure it's behind all other content */
+ overflow: hidden;
+}
+
+
+.paper {
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Prevent stretching */
+}
+
+.slant-arrow
+.slant-arrow
+{
+  box-sizing: border-box;}
+.slant-arrow
+ {
+  height: 10.66375rem;
+  position: absolute;
+  overflow: hidden;
+  top: 35rem;
+  left: 60rem
+}
+
+.jeffery,
+.jeffery * {
+  box-sizing: border-box;
+}
+.jeffery {
+	background: transparent;
+  	height: 35.375rem;
+  	position: relative;
+	box-shadow: #000000 1rem;
+  	object-fit: cover;
+  	left:25em;
+  	top: 10rem;}
+
+
+.great-job,
+.great-job * {
+  box-sizing: border-box;
+}
+.great-job
+ {
+
+	flex-shrink: 0;
+	color:black;
+	text-align: left;
+	font-family:"are-you-serious-regular";
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 6rem;
+	font-weight: 400;
+	position: absolute;
+	height: 13.0625rem;
+	top: 3rem;
+	left: 2.0rem;
+	width: fit-content;
+	height: fit-content;
+}
+.slantarrow
+{
+	 box-sizing: border-box;
+	}
+
+
+.slantarrow
+
+{
+	height: 10.66375rem;
+	position: absolute;
+	overflow: hidden;
+	top: 35rem;
+	left: 60rem;
+	width: 11.71919rem;
+}
+
+.caption
+{
+	
+	width: 31.375rem;
+	height: 15.5625rem;
+	flex-shrink: 0;
+}

@@ -1,0 +1,70 @@
+/* General Reset for Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Background Image Styling */
+.paper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9; /* Ensure it's behind all other content */
+  overflow: hidden;
+}
+
+.paper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevent stretching */
+}
+
+/* Styling for .slantarrow */
+.slantarrow,
+.slantarrow * {
+  box-sizing: border-box;
+}
+
+.slantarrow {
+  width: 25.06rem;
+  height: 11.66375rem;
+  position: absolute;
+  overflow: hidden;
+  top: 25rem;
+  left: 45rem;
+}
+
+/* Styling for .kit */
+.kit,
+.kit * {
+  box-sizing: border-box;
+}
+
+.kit {
+  height: 30rem;
+  position: absolute;
+  object-fit: cover;
+  background: transparent;
+  top: 10rem;
+  left: 18rem;
+}
+
+/* Styling for .kit-smile */
+.kit-smile,
+.kit-smile * {
+  box-sizing: border-box;
+}
+
+.kit-smile {
+  height: 26.625rem;
+  position: relative;
+  background: transparent;
+  text-decoration-skip-ink: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  top: 15rem;
+  left: 25rem;
+  flex-shrink: 0;
+}
